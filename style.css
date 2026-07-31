@@ -105,6 +105,8 @@ body{
     border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 24px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -112,9 +114,4 @@ body{
     .parametro-coluna__senha{
         flex-direction: row;
     }
-}
-.checkbox{
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
 }
